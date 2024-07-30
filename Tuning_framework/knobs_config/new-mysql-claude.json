@@ -1,0 +1,59 @@
+{
+    "innodb_buffer_pool_size": {
+        "max": 8589934592,
+        "min": 10485760,
+        "type": "integer"
+    },
+    "innodb_log_file_size": {
+        "max": 536870912,
+        "min": 268435456,
+        "type": "integer" 
+    },
+    "innodb_flush_log_at_trx_commit": {
+        "enum_values": [
+            "1",
+            "0",
+            "2"
+        ],
+        "type": "enum"
+    },
+    "innodb_doublewrite": {
+        "enum_values": [
+            "ON",
+            "OFF"
+        ],
+        "type": "enum"
+    },
+    "innodb_thread_concurrency": {
+        "max": 64,
+        "min": 32,
+        "type": "integer"
+    },
+    "innodb_max_dirty_pages_pct": {
+        "max": 75,
+        "min": 60,
+        "type": "integer"
+    },
+    "innodb_io_capacity": {
+        "max": 20000,
+        "min": 10000,
+        "type": "integer"
+    },
+    "innodb_io_capacity_max": {
+        "max": 40000,
+        "min": 20000,
+        "type": "integer"
+    },
+    "innodb_adaptive_flushing": {
+        "enum_values": [
+            "ON",
+            "OFF"       
+        ],
+        "type": "enum"
+    },
+    "innodb_change_buffer_max_size": {
+        "max": 50,
+        "min": 25,
+        "type": "integer"
+    }
+}

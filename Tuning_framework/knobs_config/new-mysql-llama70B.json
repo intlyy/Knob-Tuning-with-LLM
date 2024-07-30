@@ -1,0 +1,52 @@
+{
+    "innodb_buffer_pool_size": {
+        "max": 8589934592,
+        "min": 5242880,
+        "type": "integer"
+    },
+    "sort_buffer_size": {
+        "max": 134217728,
+        "min": 32768,
+        "type": "integer"
+    },
+    "read_buffer_size": {
+        "max": 2147479552,
+        "min": 8192,
+        "type": "integer"
+    },
+    "innodb_log_file_size": {
+        "max": 1073741824,
+        "min": 4194304,
+        "type": "integer"
+    },
+    "innodb_thread_concurrency": {
+        "max": 1000,
+        "min": 0,
+        "type": "integer"
+    },
+    "query_cache_size": {
+        "max": 2147483648,
+        "min": 0,
+        "type": "integer"
+    },
+    "innodb_flush_log_at_timeout": {
+        "max": 2700,
+        "min": 1,
+        "type": "integer"
+    },
+    "max_connections": {
+        "max": 4294967295,
+        "min": 1,
+        "type": "integer"
+    },
+    "innodb_io_capacity": {
+        "max": 40000,
+        "min": 100,
+        "type": "integer"
+    },
+    "thread_cache_size": {
+        "max": 16384,
+        "min": 0,
+        "type": "integer"
+    }
+}

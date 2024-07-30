@@ -1,0 +1,37 @@
+{
+    "innodb_buffer_pool_size": {
+        "max": 12884901888,
+        "min": 11264000000,
+        "type": "integer"
+    },
+    "innodb_read_io_threads": {
+        "max": 16,
+        "min": 8,
+        "type": "integer"
+    },
+    "innodb_io_capacity": {
+        "max": 3000,
+        "min": 1000,
+        "type": "integer"
+    },
+    "query_cache_size": {
+        "max": 52428800,
+        "min": 0,
+        "type": "integer"
+    },
+    "tmp_table_size": {
+        "max": 268435456,
+        "min": 16777216,
+        "type": "integer"
+    },
+    "sort_buffer_size": {
+        "max": 8388608,
+        "min": 2097152,
+        "type": "integer"
+    },
+    "read_buffer_size": {
+        "max": 1048576,
+        "min": 131072,
+        "type": "integer"
+    }
+}

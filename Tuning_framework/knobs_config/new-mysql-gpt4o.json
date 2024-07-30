@@ -1,0 +1,56 @@
+{
+    "innodb_buffer_pool_size": {
+        "max": 15618062894,
+        "min": 10307921510,
+        "type": "integer"
+    },
+    "innodb_log_file_size": {
+        "max": 1073741824,
+        "min": 4194304,
+        "type": "integer"
+    },
+    "innodb_flush_log_at_trx_commit": {
+        "enum_values": [
+            "0",
+            "1",
+            "2"
+        ],
+        "type": "enum"
+    },
+    "innodb_io_capacity": {
+        "max": 2000,
+        "min": 100,
+        "type": "integer"
+    },
+    "query_cache_size": {
+        "max": 2147483648,
+        "min": 0,
+        "type": "integer"
+    },
+    "join_buffer_size": {
+        "max": 1073741824,
+        "min": 128,
+        "type": "integer" 
+    },
+    "table_open_cache": {
+        "max": 250000,
+        "min": 1,
+        "scope": "Global",
+        "type": "integer"
+    },
+    "tmp_table_size": {
+        "max": 1073741824,
+        "min": 1024,
+        "type": "integer"
+    },
+    "thread_cache_size": {
+        "max": 16384,
+        "min": 0,
+        "type": "integer"
+    },
+    "max_heap_table_size": {
+        "max": 1073741824,
+        "min": 16384,
+        "type": "integer"
+    }
+}

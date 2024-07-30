@@ -1,0 +1,162 @@
+{
+    "innodb_buffer_pool_size": {
+        "default": 13958643712,
+        "dynamic": "Yes",
+        "max": 15618062894,
+        "min": 10307921510,
+        "scope": "Global",
+        "type": "integer"
+    },
+    "tmp_table_size": {
+        "default": 16777216,
+        "dynamic": "Yes",
+        "max": 1073741824,
+        "min": 1024,
+        "scope": "Global, Session",
+        "type": "integer"
+    },
+    "max_heap_table_size": {
+        "default": 16777216,
+        "dynamic": "Yes",
+        "max": 1073741824,
+        "min": 16384,
+        "scope": "Global, Session",
+        "type": "integer"
+    },
+    "query_prealloc_size": {
+        "default": 8192,
+        "dynamic": "Yes",
+        "max": 134217728,
+        "min": 8192,
+        "scope": "Global, Session",
+        "type": "integer"
+    },
+    "innodb_thread_concurrency": {
+        "default": 0,
+        "dynamic": "Yes",
+        "max": 1000,
+        "min": 0,
+        "scope": "Global",
+        "type": "integer"
+    },
+    "sort_buffer_size": {
+        "default": 262144,
+        "dynamic": "Yes",
+        "max": 134217728,
+        "min": 32768,
+        "scope": "Global, Session",
+        "type": "integer"
+    },
+    "innodb_max_dirty_pages_pct_lwm": {
+        "default": 0,
+        "dynamic": "Yes",
+        "max": 99,
+        "min": 0,
+        "scope": "Global",
+        "type": "integer"
+    },
+    "innodb_max_dirty_pages_pct": {
+        "default": 75,
+        "dynamic": "Yes",
+        "max": 99,
+        "min": 0,
+        "scope": "Global",
+        "type": "integer"
+    },
+    "innodb_purge_threads": {
+        "default": 4,
+        "dynamic": "No",
+        "max": 32,
+        "min": 1,
+        "scope": "Global",
+        "type": "integer"
+    },
+    "innodb_purge_batch_size": {
+        "default": 300,
+        "dynamic": "Yes",
+        "max": 5000,
+        "min": 1,
+        "scope": "Global",
+        "type": "integer"
+    },
+    "table_open_cache_instances": {
+        "default": 16,
+        "dynamic": "No",
+        "max": 64,
+        "min": 1,
+        "scope": "Global",
+        "type": "integer"
+    },
+    "innodb_compression_failure_threshold_pct": {
+        "default": 5,
+        "dynamic": "Yes",
+        "max": 100,
+        "min": 0,
+        "scope": "Global",
+        "type": "integer"
+    },
+    "innodb_compression_pad_pct_max": {
+        "default": 50,
+        "dynamic": "Yes",
+        "max": 75,
+        "min": 0,
+        "scope": "Global",
+        "type": "integer"
+    },
+    "expire_logs_days": {
+        "default": 0,
+        "dynamic": "Yes",
+        "max": 99,
+        "min": 0,
+        "scope": "Global",
+        "type": "integer"
+    },
+    "innodb_lru_scan_depth": {
+        "default": 1024,
+        "dynamic": "Yes",
+        "max": 10240,
+        "min": 100,
+        "scope": "Global",
+        "type": "integer"
+    },
+    "innodb_write_io_threads": {
+        "default": 4,
+        "dynamic": "No",
+        "max": 64,
+        "min": 1,
+        "scope": "Global",
+        "type": "integer"
+    },
+    "innodb_stats_transient_sample_pages": {
+        "default": 8,
+        "dynamic": "Yes",
+        "max": 100,
+        "min": 1,
+        "scope": "Global",
+        "type": "integer"
+    },
+    "innodb_spin_wait_delay": {
+        "default": 6,
+        "dynamic": "Yes",
+        "max": 6000,
+        "min": 0,
+        "scope": "Global",
+        "type": "integer"
+    },
+    "innodb_read_ahead_threshold": {
+        "default": 56,
+        "dynamic": "Yes",
+        "max": 64,
+        "min": 0,
+        "scope": "Global",
+        "type": "integer"
+    },
+    "div_precision_increment": {
+        "default": 4,
+        "dynamic": "Yes",
+        "max": 30,
+        "min": 0,
+        "scope": "Global, Session",
+        "type": "integer"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "innodb_buffer_pool_size": {
+        "max": 8589934592,
+        "min":  5242880,
+        "type": "integer"
+    },
+    "innodb_log_file_size": {
+        "max": 1073741824,
+        "min": 4194304,
+        "type": "integer"
+    },
+    "innodb_read_io_threads": {
+        "max": 64,
+        "min": 1,
+        "type": "integer"
+    },
+    "innodb_write_io_threads": {
+        "max": 64,
+        "min": 1,
+        "type": "integer"
+    },
+    "innodb_thread_concurrency": {
+        "max": 1000,
+        "min": 0,
+        "type": "integer"
+    },
+    "innodb_flush_log_at_trx_commit": {
+        "enum_values": [
+            "0",
+            "1",
+            "2"
+        ],
+        "type": "enum"
+    },
+    "innodb_max_dirty_pages_pct": {
+        "max": 99,
+        "min": 0,
+        "type": "integer"
+    },
+    "thread_cache_size":{
+        "max": 16384,
+        "min": 0,
+        "type": "integer"
+    },
+    "table_open_cache": {
+        "max": 250000,
+        "min": 1,
+        "type": "integer"
+    },
+    "query_cache_size": {
+        "default": 1048576,
+        "dynamic": "Yes",
+        "max": 2147483648,
+        "min": 0,
+        "scope": "Global",
+        "type": "integer"
+    }
+}

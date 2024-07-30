@@ -1,0 +1,27 @@
+{
+    "innodb_buffer_pool_size": {
+        "max": 12884901888,
+        "min": 10737418240,
+        "type": "integer"
+    },
+    "innodb_log_file_size": {
+        "max": 1073741824,
+        "min": 268435456,
+        "type": "integer"
+    },
+    "innodb_read_io_threads": {
+        "max": 64,
+        "min": 8,
+        "type": "integer"
+    },
+    "innodb_write_io_threads": {
+        "max": 64,
+        "min": 8,
+        "type": "integer"
+    },
+    "innodb_io_capacity": {
+        "max": 10000,
+        "min": 200,
+        "type": "integer"
+    }
+}

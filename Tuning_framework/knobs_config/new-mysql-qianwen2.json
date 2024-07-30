@@ -1,0 +1,65 @@
+{
+    "innodb_buffer_pool_size": {
+        "Description": "The size in bytes of the buffer pool, the memory area where InnoDB caches table and index data.",
+        "type": "integer",
+        "min": 5242880,
+        "max": 8589934592
+    },
+    "innodb_thread_concurrency": {
+        "Description": "Defines the maximum number of threads permitted inside of InnoDB.",
+        "type": "integer",
+        "min": 0,
+        "max": 1000
+    },
+    "innodb_io_capacity_max": {
+        "Description": "If flushing activity falls behind, InnoDB can flush more aggressively, at a higher rate of I/O operations per second (IOPS) than defined by the innodb_io_capacity variable.",
+        "type": "integer",
+        "min": 100,
+        "max": 40000
+    },
+    "innodb_flush_log_at_timeout": {
+        "Description": "Write and flush the logs every N seconds.",
+        "type": "integer",
+        "min": 1,
+        "max": 2700
+    },
+    "innodb_flush_neighbors": {
+        "Description": "Specifies whether flushing a page from the InnoDB buffer pool also flushes other dirty pages in the same extent.",
+        "type": "enum",
+        "enum_values": [
+            "0",
+            "1",
+            "2"
+        ]
+    },
+    "innodb_log_file_size": {
+        "Description": "The size in bytes of each log file in a log group.",
+        "type": "integer",
+        "min": 4194304,
+        "max": 1073741824
+    },
+    "innodb_adaptive_hash_index_parts": {
+        "Description": "Partitions the adaptive hash index search system.",
+        "type": "integer",
+        "min": 1,
+        "max": 512
+    },
+    "innodb_adaptive_max_sleep_delay": {
+        "Description": "Permits InnoDB to automatically adjust the value of innodb_thread_sleep_delay up or down according to the current workload.",
+        "type": "integer",
+        "min": 0,
+        "max": 1000000
+    },
+    "innodb_purge_rseg_truncate_frequency": {
+        "Description": "Defines the frequency with which the purge system frees rollback segments in terms of the number of times that purge is invoked.",
+        "type": "integer",
+        "min": 1,
+        "max": 128
+    },
+    "innodb_purge_threads": {
+        "Description": "The number of background threads devoted to the InnoDB purge operation.",
+        "type": "integer",
+        "min": 1,
+        "max": 32
+    }
+}

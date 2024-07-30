@@ -1,0 +1,111 @@
+{
+    "tmp_table_size": {
+        "default": 16777216,
+        "dynamic": "Yes",
+        "max": 1073741824,
+        "min": 1024,
+        "scope": "Global, Session",
+        "type": "integer",
+        "important_rank": 1,
+        "shap_value": 21876.07181191817
+    },
+    "max_heap_table_size": {
+        "default": 16777216,
+        "dynamic": "Yes",
+        "max": 1073741824,
+        "min": 16384,
+        "scope": "Global, Session",
+        "type": "integer",
+        "important_rank": 2,
+        "shap_value": 18924.825276999447
+    },
+    "query_prealloc_size": {
+        "default": 8192,
+        "dynamic": "Yes",
+        "max": 134217728,
+        "min": 8192,
+        "scope": "Global, Session",
+        "type": "integer",
+        "important_rank": 3,
+        "shap_value": 17465.264001631564
+    },
+    "innodb_thread_concurrency": {
+        "default": 0,
+        "dynamic": "Yes",
+        "max": 1000,
+        "min": 0,
+        "scope": "Global",
+        "type": "integer",
+        "important_rank": 4,
+        "shap_value": 17116.816291759573
+    },
+    "innodb_doublewrite": {
+        "default": "ON",
+        "dynamic": "No",
+        "enum_values": [
+            "ON",
+            "OFF"
+        ],
+        "scope": "Global",
+        "type": "enum",
+        "important_rank": 5,
+        "shap_value": 11794.303435160438
+    },
+    "sort_buffer_size": {
+        "default": 262144,
+        "dynamic": "Yes",
+        "max": 134217728,
+        "min": 32768,
+        "scope": "Global, Session",
+        "type": "integer",
+        "important_rank": 6,
+        "shap_value": 9584.393202872974
+    },
+    "log_output": {
+        "default": "FILE",
+        "dynamic": "Yes",
+        "enum_values": [
+            "TABLE",
+            "FILE",
+            "NONE"
+        ],
+        "scope": "Global",
+        "type": "enum",
+        "important_rank": 7,
+        "shap_value": 6738.451429334823
+    },
+    "general_log": {
+        "default": "OFF",
+        "dynamic": "Yes",
+        "enum_values": [
+            "ON",
+            "OFF"
+        ],
+        "scope": "Global",
+        "type": "enum",
+        "important_rank": 8,
+        "shap_value": 4382.835978785001
+    },
+    "innodb_random_read_ahead": {
+        "default": "OFF",
+        "dynamic": "Yes",
+        "enum_values": [
+            "ON",
+            "OFF"
+        ],
+        "scope": "Global",
+        "type": "enum",
+        "important_rank": 9,
+        "shap_value": 1384.3245521307713
+    },
+    "innodb_buffer_pool_size": {
+        "default": 8589934592,
+        "dynamic": "Yes",
+        "max": 8589934592,
+        "min":  5242880,
+        "scope": "Global",
+        "type": "integer",
+        "important_rank": 10,
+        "shap_value": 736.3400982000484
+    }
+}

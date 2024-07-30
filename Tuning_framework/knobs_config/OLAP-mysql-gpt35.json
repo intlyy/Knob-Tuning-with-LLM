@@ -1,0 +1,58 @@
+{
+    "innodb_buffer_pool_size": {
+        "max": 17179869184,
+        "min": 10737418240,
+        "type": "integer"
+    },
+    "innodb_io_capacity": {
+        "max": 2000000,
+        "min": 100,
+        "type": "integer"
+    },
+    "innodb_read_io_threads": {
+        "max": 64,
+        "min": 1,
+        "type": "integer"
+    },
+    "innodb_thread_sleep_delay": {
+        "max": 1000000,
+        "min": 0,
+        "type": "integer"
+    },
+    "innodb_flush_log_at_trx_commit": {
+        "enum_values": [
+            "0",
+            "1",
+            "2"
+        ],
+        "type": "enum"
+    },
+    "innodb_flush_neighbors": {
+        "enum_values": [
+            "0",
+            "1",
+            "2"
+        ],
+        "type": "enum"
+    },
+    "innodb_stats_transient_sample_pages": {
+        "max": 100,
+        "min": 1,
+        "type": "integer"
+    },
+    "innodb_compression_level": {
+        "max": 9,
+        "min": 0,
+        "type": "integer"
+    },
+    "innodb_compression_pad_pct_max": {
+        "max": 75,
+        "min": 0,
+        "type": "integer"
+    },
+    "innodb_fill_factor": {
+        "max": 100,
+        "min": 10,
+        "type": "integer"
+    }
+}
